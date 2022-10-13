@@ -24,6 +24,7 @@ section{
   text-align: center;
   font-family: 'Noto Sans KR', sans-serif;
 }
+}
 .subject2{
   font-size: 50px;
   font-family: 'Nanum Myeongjo', serif;
@@ -140,6 +141,9 @@ section#about .company img:first-child + img{ /* img태그는 인라인태그 �
 }
 #service .wrap h2+.p{
   margin-top: 26px;
+  font-size: 50px;
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 700;
 }
 #service .wrap .p{
   text-align: center;
@@ -222,7 +226,7 @@ section#about .company img:first-child + img{ /* img태그는 인라인태그 �
     
 }
 #service .wrap ul li .overcontents p:nth-of-type(2){
-    margin-top: 42px;
+    margin-top: 30px;
 }
 #service .wrap ul li .overcontents img{
   
@@ -247,7 +251,7 @@ section#about .company img:first-child + img{ /* img태그는 인라인태그 �
   background-image: url(../img/sect04-main.gif);
   background-repeat: no-repeat;
   background-size: 35%;
-  background-position-x: right;
+  background-position-x: left;
   background-origin: content-box;
   /*! background-origin: padding-box; */
   /*! border: 80px solid rgba(10,10,10,0.4); */
@@ -256,22 +260,28 @@ section#about .company img:first-child + img{ /* img태그는 인라인태그 �
 #history .wrap hgroup{
 }
 #history .wrap hgroup h2{
+  margin-left: 506px;
 }
 #history .wrap hgroup h3{
-  margin-top: 28px;
-  margin-bottom: 15px;
+  margin-top: 40px;
+  margin-bottom: 34px;
   font-size: 25px;
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: 300;
   line-height: 1.3;
+  margin-left: 506px;
 }
 #history .wrap hgroup h3 span{
   display: block;
+  font-size: 50px;
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 700;
 }
 #history .wrap ul.list{
   line-height: 2.5;
   padding-left: 50px;
   position: relative;
+  margin-left: 506px;
 }
 #history .wrap ul.list::before{
   content: "";
@@ -346,6 +356,7 @@ aside button::after{
   display: flex;
   margin: 0 auto;
   column-gap: 70px;
+  flex-direction: row-reverse;
 }
 #location .wrap iframe{
   border: 2px solid #333 !important;
@@ -362,8 +373,11 @@ aside button::after{
 
 }
 #location .wrap .right hgroup h3{
-
   line-height: 2.5;
+  display: block;
+  font-size: 50px;
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 700;
 }
 #location .wrap .right p{
 
